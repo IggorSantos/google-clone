@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: white;
+}
+header{
+  background-color: white;
+  padding: 1rem;
+
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: flex-end;
+}
+a{
+  text-decoration: none;
+}
+.buttonLogin{
+  background-color: white;
+  padding: 0.5rem;
+  border: 1px solid #2c5fd5;
+}
+main{
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  padding-bottom: 14rem;
+}
+.searchInput{
+  width: 500px;
+  height: 45px;
+  border-radius: 24px;
+  border: 1px solid #ccc;
+}
+img{
+  padding: 0 5rem;
+}
+.buttons{
+  padding: 2rem;
+  text-align: center;
+}
+.buttonSearch{
+  background-color: #f8f9fa;
+  padding: 0.5rem;
+  color: #3c4043;
+}.buttonSearch:hover{
+  border: 1px solid gray;
+}
+p{
+  text-align: center;
+}
+footer{
+  background-color: #f7f7f7;
+}
+footer ul{
+  display: grid;
+  padding: 1rem 2rem;
+  list-style-type: none;
+  grid-template-areas:
+    'links1   .   links2'
+}
+ul li{
+  padding: 1rem;
+}
+.links1{
+  display: flex;
+  grid-area: links1;
+  flex-direction: row;
+}
+.links2{
+  display: flex;
+  grid-area: links2;
+  flex-direction: row;
+}
