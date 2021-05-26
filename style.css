@@ -74,5 +74,5 @@ ul li{
   display: flex;
   grid-area: links2;
   flex-direction: row;
-  padding-left: 30rem;
+  justify-content: flex-end;
 }
