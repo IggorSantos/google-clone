@@ -57,7 +57,7 @@ footer{
 }
 footer ul{
   display: grid;
-  padding: 1rem 2rem;
+  padding-top: 1rem;
   list-style-type: none;
   grid-template-areas:
     'links1   .   links2'
@@ -78,9 +78,10 @@ ul li{
   justify-content: flex-end;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 690px){
   footer ul{
-    display: flex;
-    flex-direction: column;
+    grid-template-areas:
+      'links1 links1'
+      'links2 links2'
   }
 }
