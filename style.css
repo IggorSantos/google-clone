@@ -18,7 +18,8 @@ a{
   text-decoration: none;
 }
 .buttonLogin{
-  background-color: white;
+  background-color: #1a73e8;
+  color: white;
   padding: 0.5rem;
   border: 1px solid #2c5fd5;
 }
@@ -75,4 +76,11 @@ ul li{
   grid-area: links2;
   flex-direction: row;
   justify-content: flex-end;
+}
+
+@media screen and (max-width: 425px){
+  footer ul{
+    display: flex;
+    flex-direction: column;
+  }
 }
